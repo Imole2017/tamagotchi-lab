@@ -15,6 +15,25 @@
     font-size: 3.5rem;
   }
   
+  element.style {
+    display: block;
+    /* webkit-user-select: none; */
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+
+img[Attributes] {
+    width: 252px;
+    aspect-ratio: auto 252 / 243;
+    height: 243px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
   h2 {
     font-size: 1.7rem;
   }
